@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE cppweekly_rpg::cppweekly_rpg_options
+          cppweekly_rpg::cppweekly_rpg_warnings)
 
 target_link_system_libraries(
   intro

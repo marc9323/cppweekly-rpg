@@ -1,4 +1,4 @@
-function(myproject_check_libfuzzer_support var_name)
+function(cppweekly_rpg_check_libfuzzer_support var_name)
   set(LibFuzzerTestSource
       "
 #include <cstdint>
